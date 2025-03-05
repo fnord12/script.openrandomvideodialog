@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.openrandomvideodialog" name="Open Random Video Dialog" version="0.0.1" provider-name="fnord12">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">For use with Confnordance skin.  Script to open DialogVideoInfo.xml for the random/recent movies.</summary>
+		<description lang="en_GB">Script to open DialogVideoInfo.xml for the random/recent movies.</description>
+		<language></language>
+		<platform>all</platform>
+	</extension>
+</addon>
